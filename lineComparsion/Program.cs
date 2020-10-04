@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace lineComparsion
 {
     class Program
@@ -40,9 +39,13 @@ namespace lineComparsion
 			{
 				Console.WriteLine("Lines are of equal length");
 			}
+			else if (length1 > length2)
+			{
+				Console.WriteLine("Line1 is bigger than Line2");
+			}
 			else
 			{
-				Console.WriteLine("Lines are not equal");
+				Console.WriteLine("Line2 is bigger than Line1");
 			}
 		}
     }
